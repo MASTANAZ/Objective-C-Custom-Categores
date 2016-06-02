@@ -8,6 +8,43 @@
 
 #import <XCTest/XCTest.h>
 
+
+/**************************************
+ 
+ UIImage Categories
+
+ **/
+#import "UIImage+ColorManipulation.h"
+#import "UIImage+Resizing.h"
+#import "UIImage+RenderText.h"
+
+
+/**************************************
+
+ UITextField Categories
+ 
+ **/
+#import "UITextField+EmailValidation.h"
+
+
+/**************************************
+ 
+ UIBezierPath Categories
+ 
+ **/
+#import "UIBezierPath+Shapes.h"
+
+
+/**************************************
+ 
+ UIColor Categories
+ 
+ **/
+#import "UIColor+Gradient.h"
+#import "UIColor+Hex.h"
+#import "UIColor+Modify.h"
+
+
 @interface CustomCategoriesTests : XCTestCase
 
 @end
@@ -23,6 +60,25 @@
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
+
+
+/*************************************************************
+ Test UITextField EmailValidation
+ 
+ Executes a test to ensure that the Check if Email Is Valid
+ method will execute successfully
+ **/
+- (void)testUITextField_EmailValidation
+{
+
+    XCTAssertNotNil([NSNumber numberWithBool:[UITextField checkIfEmailIsValid:@"an@email.com"]] , @"Email Check method did not execute with an expected return for a valid email");
+    
+    XCTAssertNotNil([NSNumber numberWithBool:[UITextField checkIfEmailIsValid:@"invalid@email1"]] , @"Email Check method did not execute with an expected return for an invalid email");
+    
+    // No tear down needed
+}
+
+//TODO: Add more test methods 
 
 - (void)testExample {
     // This is an example of a functional test case.

@@ -14,6 +14,8 @@
 
 @implementation CustomCategoriesUITests
 
+#warning Add UIImage Category UI Tests to this class.
+
 - (void)setUp {
     [super setUp];
     
