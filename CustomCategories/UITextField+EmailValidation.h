@@ -10,6 +10,10 @@
 
 @interface UITextField (Email)
 
+// Pass in an email address string to ensure that it contains valid characters
+// and a valid top-level domain.
+//
+// NOTE: This does not check if the email exists.
 + (BOOL)checkIfEmailIsValid:(NSString*)email;
 
 
