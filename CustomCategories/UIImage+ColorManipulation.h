@@ -1,6 +1,10 @@
 //
-//  ImageColorManipulator.h
-//  ImageModifierTest
+//  UIImage+ColorManipulation.h
+//  CustomCategories
+//
+//  This category is a UIImage class-level category
+//  that returns UIImage instances with modifications
+//  specifically to color.
 //
 //  Created by Blake Nazario-Casey on 4/18/16.
 //  Copyright © 2016 Example. All rights reserved.
