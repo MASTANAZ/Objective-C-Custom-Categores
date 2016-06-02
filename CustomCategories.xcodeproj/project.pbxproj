@@ -23,6 +23,7 @@
 		F7A45ED01D00C49F0076E451 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ECF1D00C49F0076E451 /* UIColor+Gradient.m */; };
 		F7A45ED41D00C67C0076E451 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED31D00C67C0076E451 /* UIColor+Hex.m */; };
 		F7A45ED71D00D27D0076E451 /* UIColor+Modify.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED61D00D27D0076E451 /* UIColor+Modify.m */; };
+		F7A45EDA1D00DF3B0076E451 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED91D00DF3B0076E451 /* UITextView+Placeholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		F7A45ED31D00C67C0076E451 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		F7A45ED51D00D27D0076E451 /* UIColor+Modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Modify.h"; sourceTree = "<group>"; };
 		F7A45ED61D00D27D0076E451 /* UIColor+Modify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Modify.m"; sourceTree = "<group>"; };
+		F7A45ED81D00DF3B0076E451 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		F7A45ED91D00DF3B0076E451 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,7 @@
 				F7A45EC31D009F290076E451 /* UITextField Categories */,
 				F7A45ECD1D00B7930076E451 /* UIBeziePath Categories */,
 				F7A45ED11D00C4A80076E451 /* UIColor Categories */,
+				F7A45EDB1D00DF470076E451 /* UITextView Categories */,
 				F7A45E8C1D009C100076E451 /* AppDelegate.h */,
 				F7A45E8D1D009C100076E451 /* AppDelegate.m */,
 				F7A45E8F1D009C100076E451 /* ViewController.h */,
@@ -210,6 +214,15 @@
 				F7A45ED61D00D27D0076E451 /* UIColor+Modify.m */,
 			);
 			name = "UIColor Categories";
+			sourceTree = "<group>";
+		};
+		F7A45EDB1D00DF470076E451 /* UITextView Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F7A45ED81D00DF3B0076E451 /* UITextView+Placeholder.h */,
+				F7A45ED91D00DF3B0076E451 /* UITextView+Placeholder.m */,
+			);
+			name = "UITextView Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +362,7 @@
 				F7A45ECC1D00B78C0076E451 /* UIBezierPath+Shapes.m in Sources */,
 				F7A45ED01D00C49F0076E451 /* UIColor+Gradient.m in Sources */,
 				F7A45EC11D009F0C0076E451 /* UITextField+EmailValidation.m in Sources */,
+				F7A45EDA1D00DF3B0076E451 /* UITextView+Placeholder.m in Sources */,
 				F7A45E911D009C100076E451 /* ViewController.m in Sources */,
 				F7A45E8E1D009C100076E451 /* AppDelegate.m in Sources */,
 				F7A45E8B1D009C100076E451 /* main.m in Sources */,
