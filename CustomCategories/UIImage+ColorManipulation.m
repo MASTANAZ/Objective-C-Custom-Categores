@@ -11,6 +11,15 @@
 
 @implementation UIImage (Color)
 
+//TODO: Rewrite method names to be more legible.
+
+
+/*************************************************************
+ Set Background Image By Color With Frame
+ 
+ Returns a UIImage of a specified size that consists of a 
+ single solid color
+ **/
 + (UIImage* )setBackgroundImageByColor:(UIColor *)backgroundColor withFrame:(CGRect )rect{
     
     // tcv - temporary colored view
@@ -32,6 +41,14 @@
 }
 
 
+/*************************************************************
+ Replace Color In Image With Tolerance
+ 
+ Returns a replaced version of a provided UIImage in which 
+ every pixel consisting of a provided color has been replaced 
+ with a new color that exists within a specified tolerance of 
+ the provided color.
+ **/
 + (UIImage*) replaceColor:(UIColor*)color inImage:(UIImage*)image withTolerance:(float)tolerance {
     
     CGImageRef imageRef = [image CGImage];
@@ -109,6 +126,14 @@
     return result;
 }
 
+
+/*************************************************************
+ Change White Color To Transparent
+ 
+ Returns a replaced version of a provided UIImage in which
+ every pixel consisting of a solid white color has been 
+ replaced with a transparent pixel.
+**/
 +(UIImage *)changeWhiteColorTransparent: (UIImage *)image
 {
     CGImageRef rawImageRef=image.CGImage;
@@ -131,8 +156,13 @@
 }
 
 
-
-
+/*************************************************************
+ Change Colors From Array To Transparent
+ 
+ Returns a replaced version of a provided UIImage in which
+ every pixel, consisting of any color in a provided array of
+ colors, has been replaced with a transparent pixel.
+ **/
 +(UIImage *)changeColorTo:(NSMutableArray*) array Transparent: (UIImage *)image
 {
     CGImageRef rawImageRef=image.CGImage;
@@ -157,6 +187,13 @@
     return result;
 }
 
+
+/*************************************************************
+ Negative Image With Image 
+ 
+ Returns a replaced version of a provided UIImage in which
+ the images color data has been inverted.
+ **/
 + (UIImage *)negativeImageWithImage:(UIImage *)sourceImage
 {
     UIImage *imageReference = [[UIImage alloc]init];

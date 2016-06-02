@@ -10,7 +10,12 @@
 
 @interface UIColor (Gradient)
 
-+ (UIColor*)gradientFromStartColor:(UIColor*)startColor toEndColor:(UIColor*)endColor withHeight:(int)height;
+// Create a gradient that shifts from a provided starting color
+// to a provided ending color within a provided height for the
+// gradient.
++ (UIColor*)gradientFromStartColor:(UIColor*)startColor
+                        toEndColor:(UIColor*)endColor
+                        withHeight:(int)height;
 
 
 @end

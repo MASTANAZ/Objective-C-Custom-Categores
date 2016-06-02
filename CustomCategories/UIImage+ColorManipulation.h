@@ -13,8 +13,8 @@
 // Create a UIImage of a solid color with a specified frame
 + (UIImage *)setBackgroundImageByColor:(UIColor *)backgroundColor withFrame:(CGRect )rect;
 
-// Replace every pixel in an image, that is equal to a single specified color with a specified tolerance,
-// to another color.
+// Replace every pixel in an image, that is equal to a single specified color, to another color
+// that exists within a specified tolerance
 + (UIImage *)replaceColor:(UIColor*)color inImage:(UIImage*)image withTolerance:(float)tolerance;
 
 // Change every white pixel in an image to a transparent pixel

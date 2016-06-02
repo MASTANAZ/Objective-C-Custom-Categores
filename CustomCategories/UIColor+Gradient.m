@@ -12,6 +12,13 @@
 
 //TODO: Add method to fit gradient within frame with angle of rotation in radians.
 
+/*************************************************************
+ Gradient From Start Color to End Color With Height
+ 
+ Returns a UIColor that consists of a gradient from a provided
+ starting color to a provided ending color that fits within a 
+ provided height.
+ **/
 + (UIColor*)gradientFromStartColor:(UIColor *)startColor
                         toEndColor:(UIColor *)endColor
                         withHeight:(int)height

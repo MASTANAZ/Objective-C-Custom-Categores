@@ -21,6 +21,7 @@
 		F7A45EC91D00A50E0076E451 /* UIImage+RenderText.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EC81D00A50E0076E451 /* UIImage+RenderText.m */; };
 		F7A45ECC1D00B78C0076E451 /* UIBezierPath+Shapes.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ECB1D00B78C0076E451 /* UIBezierPath+Shapes.m */; };
 		F7A45ED01D00C49F0076E451 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ECF1D00C49F0076E451 /* UIColor+Gradient.m */; };
+		F7A45ED41D00C67C0076E451 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED31D00C67C0076E451 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		F7A45ECB1D00B78C0076E451 /* UIBezierPath+Shapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIBezierPath+Shapes.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F7A45ECE1D00C49F0076E451 /* UIColor+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Gradient.h"; sourceTree = "<group>"; };
 		F7A45ECF1D00C49F0076E451 /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
+		F7A45ED21D00C67C0076E451 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F7A45ED31D00C67C0076E451 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,8 @@
 			children = (
 				F7A45ECE1D00C49F0076E451 /* UIColor+Gradient.h */,
 				F7A45ECF1D00C49F0076E451 /* UIColor+Gradient.m */,
+				F7A45ED21D00C67C0076E451 /* UIColor+Hex.h */,
+				F7A45ED31D00C67C0076E451 /* UIColor+Hex.m */,
 			);
 			name = "UIColor Categories";
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7A45EC61D00A4290076E451 /* UIImage+Resizing.m in Sources */,
+				F7A45ED41D00C67C0076E451 /* UIColor+Hex.m in Sources */,
 				F7A45EC01D009F0C0076E451 /* UIImage+ColorManipulation.m in Sources */,
 				F7A45EC91D00A50E0076E451 /* UIImage+RenderText.m in Sources */,
 				F7A45ECC1D00B78C0076E451 /* UIBezierPath+Shapes.m in Sources */,

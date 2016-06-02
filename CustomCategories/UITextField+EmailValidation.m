@@ -10,6 +10,20 @@
 
 @implementation UITextField (Email)
 
+
+/*************************************************************
+ Check If Email Is Valid
+ 
+ Returns a true/false value for a provided email string by 
+ performing a regular expression on the provided string. The 
+ regex checks to make sure that the provided email string does
+ not contain any illegal characters, and checks to see if the 
+ email string contains a valid top-level domain.
+ 
+ NOTE: This method does not check to see if the email actually 
+       exists; this method merely checks to see if the email
+       string is in the appropriate format.
+ **/
 + (BOOL)checkIfEmailIsValid:(NSString *)email {
         
     NSString *emailRegex = @"[A-Z0-9a-z][A-Z0-9a-z._%+-]*@[A-Za-z0-9][A-Za-z0-9.-]*\\.[A-Za-z]{2,6}";
