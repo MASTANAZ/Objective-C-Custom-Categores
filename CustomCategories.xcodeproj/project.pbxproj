@@ -22,6 +22,7 @@
 		F7A45ECC1D00B78C0076E451 /* UIBezierPath+Shapes.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ECB1D00B78C0076E451 /* UIBezierPath+Shapes.m */; };
 		F7A45ED01D00C49F0076E451 /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ECF1D00C49F0076E451 /* UIColor+Gradient.m */; };
 		F7A45ED41D00C67C0076E451 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED31D00C67C0076E451 /* UIColor+Hex.m */; };
+		F7A45ED71D00D27D0076E451 /* UIColor+Modify.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED61D00D27D0076E451 /* UIColor+Modify.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		F7A45ECF1D00C49F0076E451 /* UIColor+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Gradient.m"; sourceTree = "<group>"; };
 		F7A45ED21D00C67C0076E451 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		F7A45ED31D00C67C0076E451 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F7A45ED51D00D27D0076E451 /* UIColor+Modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Modify.h"; sourceTree = "<group>"; };
+		F7A45ED61D00D27D0076E451 /* UIColor+Modify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Modify.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +206,8 @@
 				F7A45ECF1D00C49F0076E451 /* UIColor+Gradient.m */,
 				F7A45ED21D00C67C0076E451 /* UIColor+Hex.h */,
 				F7A45ED31D00C67C0076E451 /* UIColor+Hex.m */,
+				F7A45ED51D00D27D0076E451 /* UIColor+Modify.h */,
+				F7A45ED61D00D27D0076E451 /* UIColor+Modify.m */,
 			);
 			name = "UIColor Categories";
 			sourceTree = "<group>";
@@ -347,6 +352,7 @@
 				F7A45E911D009C100076E451 /* ViewController.m in Sources */,
 				F7A45E8E1D009C100076E451 /* AppDelegate.m in Sources */,
 				F7A45E8B1D009C100076E451 /* main.m in Sources */,
+				F7A45ED71D00D27D0076E451 /* UIColor+Modify.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
