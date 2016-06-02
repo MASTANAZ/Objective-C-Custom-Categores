@@ -19,6 +19,7 @@
 		F7A45EC11D009F0C0076E451 /* UITextField+EmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EBF1D009F0C0076E451 /* UITextField+EmailValidation.m */; };
 		F7A45EC61D00A4290076E451 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EC51D00A4290076E451 /* UIImage+Resizing.m */; };
 		F7A45EC91D00A50E0076E451 /* UIImage+RenderText.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EC81D00A50E0076E451 /* UIImage+RenderText.m */; };
+		F7A45ECC1D00B78C0076E451 /* UIBezierPath+Shapes.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ECB1D00B78C0076E451 /* UIBezierPath+Shapes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +57,15 @@
 		F7A45EAE1D009C100076E451 /* CustomCategoriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCategoriesUITests.m; sourceTree = "<group>"; };
 		F7A45EB01D009C100076E451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7A45EBC1D009F0C0076E451 /* UIImage+ColorManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorManipulation.h"; sourceTree = "<group>"; };
-		F7A45EBD1D009F0C0076E451 /* UIImage+ColorManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorManipulation.m"; sourceTree = "<group>"; };
+		F7A45EBD1D009F0C0076E451 /* UIImage+ColorManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIImage+ColorManipulation.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F7A45EBE1D009F0C0076E451 /* UITextField+EmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+EmailValidation.h"; sourceTree = "<group>"; };
 		F7A45EBF1D009F0C0076E451 /* UITextField+EmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+EmailValidation.m"; sourceTree = "<group>"; };
 		F7A45EC41D00A4290076E451 /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
 		F7A45EC51D00A4290076E451 /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
 		F7A45EC71D00A50E0076E451 /* UIImage+RenderText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RenderText.h"; sourceTree = "<group>"; };
 		F7A45EC81D00A50E0076E451 /* UIImage+RenderText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RenderText.m"; sourceTree = "<group>"; };
+		F7A45ECA1D00B78C0076E451 /* UIBezierPath+Shapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Shapes.h"; sourceTree = "<group>"; };
+		F7A45ECB1D00B78C0076E451 /* UIBezierPath+Shapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIBezierPath+Shapes.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 			children = (
 				F7A45EC21D009F160076E451 /* UIImage Categories */,
 				F7A45EC31D009F290076E451 /* UITextField Categories */,
+				F7A45ECD1D00B7930076E451 /* UIBeziePath Categories */,
 				F7A45E8C1D009C100076E451 /* AppDelegate.h */,
 				F7A45E8D1D009C100076E451 /* AppDelegate.m */,
 				F7A45E8F1D009C100076E451 /* ViewController.h */,
@@ -174,6 +178,15 @@
 				F7A45EBF1D009F0C0076E451 /* UITextField+EmailValidation.m */,
 			);
 			name = "UITextField Categories";
+			sourceTree = "<group>";
+		};
+		F7A45ECD1D00B7930076E451 /* UIBeziePath Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F7A45ECA1D00B78C0076E451 /* UIBezierPath+Shapes.h */,
+				F7A45ECB1D00B78C0076E451 /* UIBezierPath+Shapes.m */,
+			);
+			name = "UIBeziePath Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +322,7 @@
 				F7A45EC61D00A4290076E451 /* UIImage+Resizing.m in Sources */,
 				F7A45EC01D009F0C0076E451 /* UIImage+ColorManipulation.m in Sources */,
 				F7A45EC91D00A50E0076E451 /* UIImage+RenderText.m in Sources */,
+				F7A45ECC1D00B78C0076E451 /* UIBezierPath+Shapes.m in Sources */,
 				F7A45EC11D009F0C0076E451 /* UITextField+EmailValidation.m in Sources */,
 				F7A45E911D009C100076E451 /* ViewController.m in Sources */,
 				F7A45E8E1D009C100076E451 /* AppDelegate.m in Sources */,
