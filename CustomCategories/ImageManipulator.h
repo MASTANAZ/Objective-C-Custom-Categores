@@ -10,22 +10,30 @@
 
 @interface UIImage (Color)
 
+// Create a UIImage of a solid color with a specified frame
 + (UIImage *)setBackgroundImageByColor:(UIColor *)backgroundColor withFrame:(CGRect )rect;
 
+// Replace every pixel in an image, that is equal to a single specified color with a specified tolerance,
+// to another color.
 + (UIImage *)replaceColor:(UIColor*)color inImage:(UIImage*)image withTolerance:(float)tolerance;
 
+// Change every white pixel in an image to a transparent pixel
 + (UIImage *)changeWhiteColorTransparent: (UIImage *)image;
 
-+ (UIImage *)changeColorTo:(NSMutableArray*) array Transparent: (UIImage *)image;
+// Change every pixel in an image, that is equal to a color specified in an array, to a transparent pixel
++ (UIImage *)changeColorTo:(NSMutableArray*)array Transparent:(UIImage *)image;
 
-//resizing Stuff...
-+ (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
-
+// Render negative of image
 + (UIImage *)negativeImageWithImage:(UIImage*)sourceImage;
 
+// Render text in an image
 + (UIImage *) drawText:(NSString*) text
               inImage:(UIImage*)  image
               atPoint:(CGPoint)   point
             withColor:(UIColor*)  color;
+
+
+// Resizing an Image
++ (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
 
 @end
