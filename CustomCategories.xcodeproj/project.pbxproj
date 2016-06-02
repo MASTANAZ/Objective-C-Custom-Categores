@@ -15,8 +15,10 @@
 		F7A45E991D009C100076E451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A45E971D009C100076E451 /* LaunchScreen.storyboard */; };
 		F7A45EA41D009C100076E451 /* CustomCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EA31D009C100076E451 /* CustomCategoriesTests.m */; };
 		F7A45EAF1D009C100076E451 /* CustomCategoriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EAE1D009C100076E451 /* CustomCategoriesUITests.m */; };
-		F7A45EC01D009F0C0076E451 /* ImageManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EBD1D009F0C0076E451 /* ImageManipulator.m */; };
+		F7A45EC01D009F0C0076E451 /* UIImage+ColorManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EBD1D009F0C0076E451 /* UIImage+ColorManipulation.m */; };
 		F7A45EC11D009F0C0076E451 /* UITextField+EmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EBF1D009F0C0076E451 /* UITextField+EmailValidation.m */; };
+		F7A45EC61D00A4290076E451 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EC51D00A4290076E451 /* UIImage+Resizing.m */; };
+		F7A45EC91D00A50E0076E451 /* UIImage+RenderText.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EC81D00A50E0076E451 /* UIImage+RenderText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +55,14 @@
 		F7A45EAA1D009C100076E451 /* CustomCategoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCategoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A45EAE1D009C100076E451 /* CustomCategoriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCategoriesUITests.m; sourceTree = "<group>"; };
 		F7A45EB01D009C100076E451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7A45EBC1D009F0C0076E451 /* ImageManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManipulator.h; sourceTree = "<group>"; };
-		F7A45EBD1D009F0C0076E451 /* ImageManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManipulator.m; sourceTree = "<group>"; };
+		F7A45EBC1D009F0C0076E451 /* UIImage+ColorManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorManipulation.h"; sourceTree = "<group>"; };
+		F7A45EBD1D009F0C0076E451 /* UIImage+ColorManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorManipulation.m"; sourceTree = "<group>"; };
 		F7A45EBE1D009F0C0076E451 /* UITextField+EmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+EmailValidation.h"; sourceTree = "<group>"; };
 		F7A45EBF1D009F0C0076E451 /* UITextField+EmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+EmailValidation.m"; sourceTree = "<group>"; };
+		F7A45EC41D00A4290076E451 /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
+		F7A45EC51D00A4290076E451 /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
+		F7A45EC71D00A50E0076E451 /* UIImage+RenderText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RenderText.h"; sourceTree = "<group>"; };
+		F7A45EC81D00A50E0076E451 /* UIImage+RenderText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RenderText.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +157,12 @@
 		F7A45EC21D009F160076E451 /* UIImage Categories */ = {
 			isa = PBXGroup;
 			children = (
-				F7A45EBC1D009F0C0076E451 /* ImageManipulator.h */,
-				F7A45EBD1D009F0C0076E451 /* ImageManipulator.m */,
+				F7A45EBC1D009F0C0076E451 /* UIImage+ColorManipulation.h */,
+				F7A45EBD1D009F0C0076E451 /* UIImage+ColorManipulation.m */,
+				F7A45EC41D00A4290076E451 /* UIImage+Resizing.h */,
+				F7A45EC51D00A4290076E451 /* UIImage+Resizing.m */,
+				F7A45EC71D00A50E0076E451 /* UIImage+RenderText.h */,
+				F7A45EC81D00A50E0076E451 /* UIImage+RenderText.m */,
 			);
 			name = "UIImage Categories";
 			sourceTree = "<group>";
@@ -296,7 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A45EC01D009F0C0076E451 /* ImageManipulator.m in Sources */,
+				F7A45EC61D00A4290076E451 /* UIImage+Resizing.m in Sources */,
+				F7A45EC01D009F0C0076E451 /* UIImage+ColorManipulation.m in Sources */,
+				F7A45EC91D00A50E0076E451 /* UIImage+RenderText.m in Sources */,
 				F7A45EC11D009F0C0076E451 /* UITextField+EmailValidation.m in Sources */,
 				F7A45E911D009C100076E451 /* ViewController.m in Sources */,
 				F7A45E8E1D009C100076E451 /* AppDelegate.m in Sources */,

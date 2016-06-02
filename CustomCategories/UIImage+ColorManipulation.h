@@ -26,14 +26,4 @@
 // Render negative of image
 + (UIImage *)negativeImageWithImage:(UIImage*)sourceImage;
 
-// Render text in an image
-+ (UIImage *) drawText:(NSString*) text
-              inImage:(UIImage*)  image
-              atPoint:(CGPoint)   point
-            withColor:(UIColor*)  color;
-
-
-// Resizing an Image
-+ (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
-
 @end
