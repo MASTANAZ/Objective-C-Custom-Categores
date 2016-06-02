@@ -15,6 +15,8 @@
 		F7A45E991D009C100076E451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A45E971D009C100076E451 /* LaunchScreen.storyboard */; };
 		F7A45EA41D009C100076E451 /* CustomCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EA31D009C100076E451 /* CustomCategoriesTests.m */; };
 		F7A45EAF1D009C100076E451 /* CustomCategoriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EAE1D009C100076E451 /* CustomCategoriesUITests.m */; };
+		F7A45EC01D009F0C0076E451 /* ImageManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EBD1D009F0C0076E451 /* ImageManipulator.m */; };
+		F7A45EC11D009F0C0076E451 /* UITextField+EmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EBF1D009F0C0076E451 /* UITextField+EmailValidation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F7A45EAA1D009C100076E451 /* CustomCategoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCategoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A45EAE1D009C100076E451 /* CustomCategoriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCategoriesUITests.m; sourceTree = "<group>"; };
 		F7A45EB01D009C100076E451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A45EBC1D009F0C0076E451 /* ImageManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManipulator.h; sourceTree = "<group>"; };
+		F7A45EBD1D009F0C0076E451 /* ImageManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManipulator.m; sourceTree = "<group>"; };
+		F7A45EBE1D009F0C0076E451 /* UITextField+EmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+EmailValidation.h"; sourceTree = "<group>"; };
+		F7A45EBF1D009F0C0076E451 /* UITextField+EmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+EmailValidation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		F7A45E881D009C100076E451 /* CustomCategories */ = {
 			isa = PBXGroup;
 			children = (
+				F7A45EC21D009F160076E451 /* UIImage Categories */,
+				F7A45EC31D009F290076E451 /* UITextField Categories */,
 				F7A45E8C1D009C100076E451 /* AppDelegate.h */,
 				F7A45E8D1D009C100076E451 /* AppDelegate.m */,
 				F7A45E8F1D009C100076E451 /* ViewController.h */,
@@ -138,6 +146,24 @@
 				F7A45EB01D009C100076E451 /* Info.plist */,
 			);
 			path = CustomCategoriesUITests;
+			sourceTree = "<group>";
+		};
+		F7A45EC21D009F160076E451 /* UIImage Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F7A45EBC1D009F0C0076E451 /* ImageManipulator.h */,
+				F7A45EBD1D009F0C0076E451 /* ImageManipulator.m */,
+			);
+			name = "UIImage Categories";
+			sourceTree = "<group>";
+		};
+		F7A45EC31D009F290076E451 /* UITextField Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F7A45EBE1D009F0C0076E451 /* UITextField+EmailValidation.h */,
+				F7A45EBF1D009F0C0076E451 /* UITextField+EmailValidation.m */,
+			);
+			name = "UITextField Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +296,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A45EC01D009F0C0076E451 /* ImageManipulator.m in Sources */,
+				F7A45EC11D009F0C0076E451 /* UITextField+EmailValidation.m in Sources */,
 				F7A45E911D009C100076E451 /* ViewController.m in Sources */,
 				F7A45E8E1D009C100076E451 /* AppDelegate.m in Sources */,
 				F7A45E8B1D009C100076E451 /* main.m in Sources */,
