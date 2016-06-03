@@ -14,7 +14,7 @@
 
 @implementation CustomCategoriesUITests
 
-#warning Add UIImage Category UI Tests to this class.
+#warning Add UIImage, UIColor, UIBezierPath, UITextView Category UI Tests to this class.
 
 - (void)setUp {
     [super setUp];

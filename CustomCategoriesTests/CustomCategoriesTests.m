@@ -45,6 +45,13 @@
 #import "UIColor+Modify.h"
 
 
+/**************************************
+ 
+ UITextView Categories
+ 
+ **/
+#import "UITextView+Placeholder.h"
+
 @interface CustomCategoriesTests : XCTestCase
 
 @end
