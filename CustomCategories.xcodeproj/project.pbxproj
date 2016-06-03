@@ -24,6 +24,7 @@
 		F7A45ED41D00C67C0076E451 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED31D00C67C0076E451 /* UIColor+Hex.m */; };
 		F7A45ED71D00D27D0076E451 /* UIColor+Modify.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED61D00D27D0076E451 /* UIColor+Modify.m */; };
 		F7A45EDA1D00DF3B0076E451 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED91D00DF3B0076E451 /* UITextView+Placeholder.m */; };
+		F7A45EE11D02309F0076E451 /* UILabel+AutoText.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EE01D02309F0076E451 /* UILabel+AutoText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		F7A45ED61D00D27D0076E451 /* UIColor+Modify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Modify.m"; sourceTree = "<group>"; };
 		F7A45ED81D00DF3B0076E451 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
 		F7A45ED91D00DF3B0076E451 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		F7A45EDF1D02309F0076E451 /* UILabel+AutoText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutoText.h"; sourceTree = "<group>"; };
+		F7A45EE01D02309F0076E451 /* UILabel+AutoText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoText.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +224,8 @@
 			children = (
 				F7A45ED81D00DF3B0076E451 /* UITextView+Placeholder.h */,
 				F7A45ED91D00DF3B0076E451 /* UITextView+Placeholder.m */,
+				F7A45EDF1D02309F0076E451 /* UILabel+AutoText.h */,
+				F7A45EE01D02309F0076E451 /* UILabel+AutoText.m */,
 			);
 			name = "UITextView Categories";
 			sourceTree = "<group>";
@@ -363,6 +368,7 @@
 				F7A45ED01D00C49F0076E451 /* UIColor+Gradient.m in Sources */,
 				F7A45EC11D009F0C0076E451 /* UITextField+EmailValidation.m in Sources */,
 				F7A45EDA1D00DF3B0076E451 /* UITextView+Placeholder.m in Sources */,
+				F7A45EE11D02309F0076E451 /* UILabel+AutoText.m in Sources */,
 				F7A45E911D009C100076E451 /* ViewController.m in Sources */,
 				F7A45E8E1D009C100076E451 /* AppDelegate.m in Sources */,
 				F7A45E8B1D009C100076E451 /* main.m in Sources */,
