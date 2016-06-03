@@ -2,6 +2,10 @@
 //  UIColor+Gradient.h
 //  CustomCategories
 //
+//  This category is a UIColor class-level category
+//  that returns UIColor instances of gradients with
+//  provided starting and ending colors.
+//
 //  Created by Blake Nazario on 6/2/16.
 //  Copyright © 2016 Kudoko, LLC. All rights reserved.
 //

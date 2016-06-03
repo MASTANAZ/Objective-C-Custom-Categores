@@ -24,7 +24,7 @@
        exists; this method merely checks to see if the email
        string is in the appropriate format.
  **/
-+ (BOOL)checkIfEmailIsValid:(NSString *)email {
+- (BOOL)checkIfEmailIsValid:(NSString *)email {
         
     NSString *emailRegex = @"[A-Z0-9a-z][A-Z0-9a-z._%+-]*@[A-Za-z0-9][A-Za-z0-9.-]*\\.[A-Za-z]{2,6}";
     NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
@@ -70,12 +70,5 @@
     
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 @end

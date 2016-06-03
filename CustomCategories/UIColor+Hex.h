@@ -2,6 +2,13 @@
 //  UIColor+Hex.h
 //  CustomCategories
 //
+//  This category is a UIColor class-level category
+//  that primarily returns UIColor instances that
+//  are UIColor equivalents of provided Hexadecimal
+//  data. This category also offers ability to
+//  convert from a UIColor to a Hexadecimal
+//  equivalent.
+//
 //  Created by Blake Nazario on 6/2/16.
 //  Copyright © 2016 Kudoko, LLC. All rights reserved.
 //

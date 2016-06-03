@@ -2,6 +2,11 @@
 //  UIBezierPath+Shapes.h
 //  CustomCategories
 //
+//  This category is a UIBezierPath class-level category
+//  that returns UIBezierPath instances of pre-defined
+//  shapes that fit within the bounds of a provided
+//  CGRect frame.
+//
 //  Created by Blake Nazario on 6/2/16.
 //  Copyright © 2016 Kudoko, LLC. All rights reserved.
 //

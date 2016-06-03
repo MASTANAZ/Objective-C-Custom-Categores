@@ -2,6 +2,10 @@
 //  UITextView+Placeholder.h
 //  CustomCategories
 //
+//  This category is a UITextView instance-level category
+//  that inserts placeholder text on a UITextView instance
+//  that calls on this category.
+//
 //  Created by Blake Nazario on 6/2/16.
 //  Copyright © 2016 Kudoko, LLC. All rights reserved.
 //
