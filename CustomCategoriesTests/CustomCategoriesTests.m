@@ -70,10 +70,12 @@
  **/
 - (void)testUITextField_EmailValidation
 {
+    // Creating UITextField instance;
+    UITextField *aTextField = [[UITextField alloc]init];
 
-    XCTAssertNotNil([NSNumber numberWithBool:[UITextField checkIfEmailIsValid:@"an@email.com"]] , @"Email Check method did not execute with an expected return for a valid email");
+    XCTAssertNotNil([NSNumber numberWithBool:[aTextField checkIfEmailIsValid:@"an@email.com"]] , @"Email Check method did not execute with an expected return for a valid email");
     
-    XCTAssertNotNil([NSNumber numberWithBool:[UITextField checkIfEmailIsValid:@"invalid@email1"]] , @"Email Check method did not execute with an expected return for an invalid email");
+    XCTAssertNotNil([NSNumber numberWithBool:[aTextField checkIfEmailIsValid:@"invalid@email1"]] , @"Email Check method did not execute with an expected return for an invalid email");
     
     // No tear down needed
 }
