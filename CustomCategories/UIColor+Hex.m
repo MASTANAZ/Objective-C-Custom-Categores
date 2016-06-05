@@ -11,10 +11,8 @@
 
 // C helper methods
 
-/*************************************************************
- Gradient From Start Color to End Color With Height
- 
- Returns a CGFloat value for the corresponding UIColor 
+/**
+ Returns a CGFloat value for the corresponding UIColor
  component of a provided Hexadecimal string by converting 
  NSString-formatted hexadecimal components in the provided 
  string to a full hexadecimal component.
@@ -36,10 +34,8 @@ CGFloat colorComponentFloatFrom(NSString *string, NSUInteger start, NSUInteger l
 @implementation UIColor (Hex)
 
 
-/*************************************************************
- Color With Hex Int
- 
- Returns a UIColor consisting of the UIColor equivalent of a 
+/**
+ Returns a UIColor consisting of the UIColor equivalent of a
  provided Hexadecimal integer's corresponding color value. 
  
  This method uses the Color With Hex Int and Alpha method with 
@@ -51,9 +47,7 @@ CGFloat colorComponentFloatFrom(NSString *string, NSUInteger start, NSUInteger l
 }
 
 
-/*************************************************************
- Color With Hex Int and Alpha
- 
+/**
  Returns a UIColor consisting of the UIColor equivalent of a
  provided Hexadecimal integer's corresponding color value with
  a specified alpha value.
@@ -67,9 +61,7 @@ CGFloat colorComponentFloatFrom(NSString *string, NSUInteger start, NSUInteger l
 }
 
 
-/*************************************************************
- Color With Hex String
- 
+/**
  Returns a UIColor consisting of the UIColor equivalent of a
  provided Hexadecimal string's corresponding color value.
  
@@ -120,10 +112,8 @@ CGFloat colorComponentFloatFrom(NSString *string, NSUInteger start, NSUInteger l
 }
 
 
-/*************************************************************
- Color With Hex Int
- 
- Returns a NSString-formatted Hexadecimal equivalent of a 
+/**
+ Returns a NSString-formatted Hexadecimal equivalent of a
  provided UIColor.
  **/
 + (NSString*)hexStringFromColor:(UIColor *)color

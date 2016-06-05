@@ -11,10 +11,8 @@
 @implementation UIColor (Modify)
 
 
-/*************************************************************
- Invert Color
- 
- Inverts the color of the UIColor instance that called this 
+/**
+ Inverts the color of the UIColor instance that called this
  method.
  **/
 - (UIColor *)invertColor
@@ -28,9 +26,7 @@
 }
 
 
-/*************************************************************
- Adjust Color For Translucency
- 
+/**
  Adjusts the color of the UIColor instance that called this
  method to appear translucent.
  **/
@@ -50,9 +46,7 @@
 }
 
 
-/*************************************************************
- Lighten Color
- 
+/**
  Lightens the color of the UIColor instance that called this
  method by a specified amount.
  **/
@@ -72,9 +66,7 @@
 }
 
 
-/*************************************************************
- Darken Color
- 
+/**
  Darkens the color of the UIColor instance that called this
  method by a specified amount.
  **/
@@ -94,10 +86,8 @@
 }
 
 
-/*************************************************************
- Color Component Array for Current Color Instance
- 
- Returns an array of the color componetns for the UIColor 
+/**
+ Returns an array of the color componetns for the UIColor
  instance that calls a method on this category.
  **/
 - (NSArray *)colorComponentArrayForCurrentColorInstance

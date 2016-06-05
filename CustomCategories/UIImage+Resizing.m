@@ -12,9 +12,7 @@
 @implementation UIImage (Size)
 
 
-/*************************************************************
- Image With Image Scaled to Size
- 
+/**
  Returns a replaced version of a provided UIImage in which
  the image has been scaled to a new two-dimensional size.
  **/

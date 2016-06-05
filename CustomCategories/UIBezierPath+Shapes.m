@@ -11,9 +11,7 @@
 @implementation UIBezierPath (Shape)
 
 
-/*************************************************************
- Maximum Square That Fits Frame
- 
+/**
  Returns a square CGRect of maximum possible size within the
  frame of a provided CGRect. This method is called by all 
  methods in this category that fit a UIBezierPath within the
@@ -26,10 +24,8 @@
 }
 
 
-/*************************************************************
- Heart Shape From Frame
- 
- Returns a UIBezierPath in the shape of a heart that fits 
+/**
+ Returns a UIBezierPath in the shape of a heart that fits
  within the frame of a provided CGRect.
  **/
 + (UIBezierPath *)heartShapeFromFrame:(CGRect)originalFrame
@@ -112,9 +108,7 @@
 }
 
 
-/*************************************************************
- User Shape From Frame
- 
+/**
  Returns a UIBezierPath in the shape of a user profile icon
  that fits within the frame of a provided CGRect.
  **/
@@ -332,10 +326,8 @@
 }
 
 
-/*************************************************************
- Martini Shape From Frame
- 
- Returns a UIBezierPath in the shape of a martini glass that 
+/**
+ Returns a UIBezierPath in the shape of a martini glass that
  fits within the frame of a provided CGRect.
  **/
 + (UIBezierPath *)martiniShapeFromFrame:(CGRect)originalFrame
@@ -579,9 +571,7 @@
 }
 
 
-/*************************************************************
- Beaker Shape From Frame
- 
+/**
  Returns a UIBezierPath in the shape of a beaker that fits
  within the frame of a provided CGRect.
  **/
@@ -777,10 +767,8 @@
 }
 
 
-/*************************************************************
- Star Shape From Frame
- 
- Returns a UIBezierPath in the shape of a five-pointed star 
+/**
+ Returns a UIBezierPath in the shape of a five-pointed star
  that fits within the frame of a provided CGRect.
  **/
 + (UIBezierPath *)starShapeFromFrame:(CGRect)originalFrame
@@ -826,10 +814,8 @@
 }
 
 
-/*************************************************************
- Multiple Star Shapes In Frame
- 
- Returns a UIBezierPath that contains a provided number of 
+/**
+ Returns a UIBezierPath that contains a provided number of
  UIBezierPath star shapes that will fit within the frame of 
  a provided CGRect.
  **/

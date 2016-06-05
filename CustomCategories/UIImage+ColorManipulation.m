@@ -14,10 +14,8 @@
 //TODO: Rewrite method names to be more legible.
 
 
-/*************************************************************
- Set Background Image By Color With Frame
- 
- Returns a UIImage of a specified size that consists of a 
+/**
+ Returns a UIImage of a specified size that consists of a
  single solid color
  **/
 + (UIImage* )setBackgroundImageByColor:(UIColor *)backgroundColor withFrame:(CGRect )rect{
@@ -41,10 +39,8 @@
 }
 
 
-/*************************************************************
- Replace Color In Image With Tolerance
- 
- Returns a replaced version of a provided UIImage in which 
+/**
+ Returns a replaced version of a provided UIImage in which
  every pixel consisting of a provided color has been replaced 
  with a new color that exists within a specified tolerance of 
  the provided color.
@@ -127,9 +123,7 @@
 }
 
 
-/*************************************************************
- Change White Color To Transparent
- 
+/**
  Returns a replaced version of a provided UIImage in which
  every pixel consisting of a solid white color has been 
  replaced with a transparent pixel.
@@ -156,9 +150,7 @@
 }
 
 
-/*************************************************************
- Change Colors From Array To Transparent
- 
+/**
  Returns a replaced version of a provided UIImage in which
  every pixel, consisting of any color in a provided array of
  colors, has been replaced with a transparent pixel.
@@ -188,9 +180,7 @@
 }
 
 
-/*************************************************************
- Negative Image With Image 
- 
+/**
  Returns a replaced version of a provided UIImage in which
  the images color data has been inverted.
  **/

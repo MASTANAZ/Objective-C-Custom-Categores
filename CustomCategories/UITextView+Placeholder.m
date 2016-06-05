@@ -17,9 +17,7 @@ static const char *k_placeHolderTextView = "k_placeHolderTextView";
 
 @implementation UITextView (Placeholder)
 
-/*************************************************************
- Placeholder Text View
- 
+/**
  RETURNS a runtime-associated value of the object that is
  paired with the k_placeHolderTextView key.
  **/
@@ -29,9 +27,7 @@ static const char *k_placeHolderTextView = "k_placeHolderTextView";
 }
 
 
-/*************************************************************
- Set Placeholder Text View
- 
+/**
  SETS a strong runtime-associated value of the object that is
  paired with the k_placeHolderTextView key.
  **/
@@ -44,9 +40,7 @@ static const char *k_placeHolderTextView = "k_placeHolderTextView";
 }
 
 
-/*************************************************************
- Set Placeholder
- 
+/**
  SETS a strong runtime-associated value of the object that is
  paired with the k_placeHolderTextView key, of which the
  associated object's text is equal to the passed in place-
@@ -72,10 +66,8 @@ static const char *k_placeHolderTextView = "k_placeHolderTextView";
 #pragma mark - UITextView Delegate
 
 
-/*************************************************************
- Text View Did Begin Editing
- 
- An override of the TextViewDidBeginEditing UITextView 
+/**
+ An override of the TextViewDidBeginEditing UITextView
  delegate method. This override sets the placeholder objectto
  hidden if the text view begins editing.
  **/
@@ -85,10 +77,8 @@ static const char *k_placeHolderTextView = "k_placeHolderTextView";
 }
 
 
-/*************************************************************
- Text View Did Begin Editing
- 
- An override of the TextViewDidEndEditing UITextView delegate 
+/**
+ An override of the TextViewDidEndEditing UITextView delegate
  method. This override sets the placeholder object to visible 
  if the text view ends editing and contains only an empty 
  string.

@@ -12,9 +12,7 @@
 
 //TODO: Create/alter method to use an attributed string to allow for more customizability.
 
-/*************************************************************
- Draw Text In Image At Point 
- 
+/**
  Returns a replaced version of a provided UIImage in which
  a provided string of text has been rendered into the image, 
  where the origin of the provided text's frame exists at a 

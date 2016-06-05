@@ -11,10 +11,8 @@
 @implementation UITextField (Email)
 
 
-/*************************************************************
- Check If Email Is Valid
- 
- Returns a true/false value for a provided email string by 
+/**
+ Returns a true/false value for a provided email string by
  performing a regular expression on the provided string. The 
  regex checks to make sure that the provided email string does
  not contain any illegal characters, and checks to see if the 
