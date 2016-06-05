@@ -22,9 +22,17 @@
 
 #import <UIKit/UIKit.h>
 
+
+// Globally accessable time interval that dictates the length of time that the
+// animation will take place.
 extern NSTimeInterval const UILabelAutoWriteDefaultDuration;
+
+// Globally accessible character that dictates the default character (such as
+// the cursor)
 extern unichar const UILabelAutoWriteDefaultCharacter;
 
+// Enumerated type that is used to determine the type of blinking and animation
+// for the animated UILabel instance.
 typedef NS_ENUM(NSInteger, UILabelBlinkingMode)
 {
     UILabelBlinkingModeNone,
@@ -35,10 +43,16 @@ typedef NS_ENUM(NSInteger, UILabelBlinkingMode)
     UILabelBlinkingModeAlways
 };
 
+
+
 @interface UILabel (AutoText)
 
+// Operation Queue instance that will be used to perform the writing animation
 @property (strong, nonatomic) NSOperationQueue *automaticWritingOperationQueue;
+
+// Property that dictates the insets of the text within the bounds of the UILabel
 @property (assign, nonatomic) UIEdgeInsets edgeInsets;
+
 
 - (void)setTextWithAutomaticWritingAnimation:(NSString *)text;
 
