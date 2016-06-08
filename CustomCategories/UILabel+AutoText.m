@@ -163,7 +163,7 @@ static char kAutomaticWritingEdgeInsetsKey;
  Sets the text with an animation and a provided duration
  of the animation.
  **/
-- (void)setText:(NSString *)text automaticWritingAnimationWithDuration:(NSTimeInterval)duration {
+- (void)setText:(NSString *)text automaticWritingAnimationWithDuration:(NSTimeInterval)duration{
     [self setText:text automaticWritingAnimationWithDuration:duration blinkingMode:UILabelBlinkingModeNone];
 }
 
