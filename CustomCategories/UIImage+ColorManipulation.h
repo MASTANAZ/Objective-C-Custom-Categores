@@ -14,7 +14,15 @@
 
 @interface UIImage (Color)
 
-// Create a UIImage of a solid color with a specified frame
+/**
+ Create a UIImage of a solid color with a specified frame
+ 
+ @param backgroundColor The color to set for the UIImage.
+ @param rect The frame for which the image will be contained in.
+ 
+ @warning `backgroundColor ` must not be `nil`.
+ @warning `rect` must not be nil.
+**/
 + (UIImage *)setBackgroundImageByColor:(UIColor *)backgroundColor withFrame:(CGRect )rect;
 
 // Replace every pixel in an image, that is equal to a single specified color, to another color

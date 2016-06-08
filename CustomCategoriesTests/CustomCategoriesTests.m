@@ -69,9 +69,9 @@
 }
 
 
-/*************************************************************
- Test UITextField EmailValidation
- 
+#pragma mark - Test UITextField EmailValidation
+
+/**
  Executes a test to ensure that the Check if Email Is Valid
  method will execute successfully
  **/
