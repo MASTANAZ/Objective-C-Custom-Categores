@@ -26,6 +26,7 @@
 		F7A45EDA1D00DF3B0076E451 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45ED91D00DF3B0076E451 /* UITextView+Placeholder.m */; };
 		F7A45EE11D02309F0076E451 /* UILabel+AutoText.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EE01D02309F0076E451 /* UILabel+AutoText.m */; };
 		F7A45EFB1D08B66B0076E451 /* NSNumber+Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EFA1D08B66B0076E451 /* NSNumber+Fibonacci.m */; };
+		F7A45EFE1D08B87D0076E451 /* NSArray+Sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A45EFD1D08B87D0076E451 /* NSArray+Sorting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		F7A45EE01D02309F0076E451 /* UILabel+AutoText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoText.m"; sourceTree = "<group>"; };
 		F7A45EF91D08B66B0076E451 /* NSNumber+Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Fibonacci.h"; sourceTree = "<group>"; };
 		F7A45EFA1D08B66B0076E451 /* NSNumber+Fibonacci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Fibonacci.m"; sourceTree = "<group>"; };
+		F7A45EFC1D08B87D0076E451 /* NSArray+Sorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Sorting.h"; sourceTree = "<group>"; };
+		F7A45EFD1D08B87D0076E451 /* NSArray+Sorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Sorting.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,7 @@
 				F7A45ED11D00C4A80076E451 /* UIColor Categories */,
 				F7A45EDB1D00DF470076E451 /* UITextView Categories */,
 				F7A45EF81D08B6550076E451 /* NSArray */,
+				F7A45EFF1D08B8820076E451 /* NSNumber */,
 				F7A45E8C1D009C100076E451 /* AppDelegate.h */,
 				F7A45E8D1D009C100076E451 /* AppDelegate.m */,
 				F7A45E8F1D009C100076E451 /* ViewController.h */,
@@ -237,10 +241,19 @@
 		F7A45EF81D08B6550076E451 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
+				F7A45EFC1D08B87D0076E451 /* NSArray+Sorting.h */,
+				F7A45EFD1D08B87D0076E451 /* NSArray+Sorting.m */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
+		F7A45EFF1D08B8820076E451 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
 				F7A45EF91D08B66B0076E451 /* NSNumber+Fibonacci.h */,
 				F7A45EFA1D08B66B0076E451 /* NSNumber+Fibonacci.m */,
 			);
-			name = NSArray;
+			name = NSNumber;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,6 +397,7 @@
 				F7A45EE11D02309F0076E451 /* UILabel+AutoText.m in Sources */,
 				F7A45E911D009C100076E451 /* ViewController.m in Sources */,
 				F7A45EFB1D08B66B0076E451 /* NSNumber+Fibonacci.m in Sources */,
+				F7A45EFE1D08B87D0076E451 /* NSArray+Sorting.m in Sources */,
 				F7A45E8E1D009C100076E451 /* AppDelegate.m in Sources */,
 				F7A45E8B1D009C100076E451 /* main.m in Sources */,
 				F7A45ED71D00D27D0076E451 /* UIColor+Modify.m in Sources */,
