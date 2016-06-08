@@ -52,6 +52,15 @@
  **/
 #import "UITextView+Placeholder.h"
 
+
+/**************************************
+ 
+ NSNumber Categories
+ 
+ **/
+#import "NSNumber+Fibonacci.h"
+
+
 @interface CustomCategoriesTests : XCTestCase
 
 @end
@@ -69,8 +78,8 @@
 }
 
 
-#pragma mark - Test UITextField EmailValidation
-
+#pragma mark - Test UITextField Categories
+#pragma mark Email Validation
 /**
  Executes a test to ensure that the Check if Email Is Valid
  method will execute successfully
@@ -87,6 +96,57 @@
     // No tear down needed
 }
 
+
+#pragma mark - Test NSNumber categories
+#pragma mark Fibonacci Sequences
+
+// Sequence Up To Number
+- (void)testNSNumber_Fibonacci_sequenceUpToNumber {
+    
+    NSUInteger number = 20;
+    NSArray *arrayOfNumsInSequence = [NSNumber fibonacciSequenceUpToNumber: number];
+    
+    // Check true/false value after dispatch_group is notified of iteration completion.
+    BOOL sequenceIsValid = NO;
+    
+    
+    // arr[n] should equal arr[n-2] + arr[n-1]
+    // Check if the numbers in array are correct for a fib sequence.
+    dispatch_group_t sequenceCheck = dispatch_group_create();
+    dispatch_group_enter(sequenceCheck);
+    for (unsigned long long index = (unsigned long long)arrayOfNumsInSequence.count - 1; index>1; index--) {
+        
+        // Sequence is incorrect
+        if ([arrayOfNumsInSequence[index] unsignedIntegerValue] !=
+                                            [arrayOfNumsInSequence[index-2] unsignedIntegerValue]
+                                          + [arrayOfNumsInSequence[index-1] unsignedIntegerValue])
+        {
+            sequenceIsValid = NO;
+            break;
+        }
+        
+        else {
+            sequenceIsValid = YES;
+        }
+    }
+    
+    dispatch_group_leave(sequenceCheck);
+    dispatch_group_notify(sequenceCheck, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0), ^{
+        
+        if (sequenceIsValid) {
+            // No teardown needed.
+            
+            NSLog(@"Sequence is correct: %@", arrayOfNumsInSequence);
+        }
+        
+        else {
+            XCTAssert(NO, @"Error: sequence value incorrect at index");
+        }
+    });
+}
+
+
+#pragma mark - Other Functions
 //TODO: Add more test methods 
 
 - (void)testExample {
