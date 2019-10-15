@@ -142,6 +142,7 @@
 				F7A45ECD1D00B7930076E451 /* UIBeziePath Categories */,
 				F7A45ED11D00C4A80076E451 /* UIColor Categories */,
 				F7A45EDB1D00DF470076E451 /* UITextView Categories */,
+				F7A45F001D0B78860076E451 /* UILabel Categories */,
 				F7A45EF81D08B6550076E451 /* NSArray */,
 				F7A45EFF1D08B8820076E451 /* NSNumber */,
 				F7A45E8C1D009C100076E451 /* AppDelegate.h */,
@@ -232,8 +233,6 @@
 			children = (
 				F7A45ED81D00DF3B0076E451 /* UITextView+Placeholder.h */,
 				F7A45ED91D00DF3B0076E451 /* UITextView+Placeholder.m */,
-				F7A45EDF1D02309F0076E451 /* UILabel+AutoText.h */,
-				F7A45EE01D02309F0076E451 /* UILabel+AutoText.m */,
 			);
 			name = "UITextView Categories";
 			sourceTree = "<group>";
@@ -254,6 +253,15 @@
 				F7A45EFA1D08B66B0076E451 /* NSNumber+Fibonacci.m */,
 			);
 			name = NSNumber;
+			sourceTree = "<group>";
+		};
+		F7A45F001D0B78860076E451 /* UILabel Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F7A45EDF1D02309F0076E451 /* UILabel+AutoText.h */,
+				F7A45EE01D02309F0076E451 /* UILabel+AutoText.m */,
+			);
+			name = "UILabel Categories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

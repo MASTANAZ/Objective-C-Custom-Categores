@@ -36,7 +36,7 @@
 
 /*
  This is a recursive approach to a fibonacci sequence that calls itself
- until the index is reached. This is not very optimized.
+ until the index is reached. This is not very optimized... At all.
 */
 + (long long int)fibonacciSequenceUsingRecursionWithIndex:(NSUInteger)index {
     
